@@ -1,4 +1,4 @@
-import discord
+8import discord
 from discord.ext import commands , tasks 
 import os
 import traceback
@@ -40,7 +40,10 @@ if not TOKEN:
     raise ValueError("TOKEN not found in environment variables")
 
 extensions = [
-    "cogs.likeCommands"
+    "cogs.likeCommands",
+    "cogs.autolikeCommands",
+    "cogs.autoDailyLike"
+]
 ]
 
 
