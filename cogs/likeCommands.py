@@ -142,7 +142,7 @@ class LikeCommands(commands.Cog):
                     else:
                         embed.description = "\n┌MAX LIKES\n└─This UID has already received the maximum likes today.\n"
 
-                    embed.set_footer(text="DEVELOPED BY THUG")
+                    embed.set_footer(text="BASANTA")
                     embed.description += "\n🔗 JOIN : https://discord.gg/awPm5B3QFg"
                     await ctx.send(embed=embed, mention_author=True, ephemeral=is_slash)
 
